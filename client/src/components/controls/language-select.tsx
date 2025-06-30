@@ -1,4 +1,4 @@
-import { usePartyState } from "@/app/hooks/usePartyState";
+import { usePartyState } from "../../app/hooks/usePartyState";
 import { useRoomContext, useVoiceAssistant } from "@livekit/components-react";
 import { useEffect, useState } from "react";
 import { Select, SelectValue, SelectTrigger, SelectItem, SelectContent } from "../ui/select";

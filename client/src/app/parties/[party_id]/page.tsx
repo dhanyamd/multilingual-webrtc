@@ -1,11 +1,9 @@
 "use client"
-import { PartyStateContext, reducer, State } from "@/app/hooks/usePartyState";
-import Lobby from "@/components/lobby";
-import Party from "@/components/party";
+import { PartyStateContext, reducer, State } from "../../hooks/usePartyState";
+import Lobby from "../../../components/lobby";
+import Party from "../../../components/party";
 import { LiveKitRoom } from "@livekit/components-react";
 import { use, useReducer } from "react";
-
- 
 
 type PartyIdType = { party_id: string } 
 

@@ -6,7 +6,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "../ui/select";
 
 export default function DeviceSelector() {
   const deviceSelect = useMediaDeviceSelect({ kind: "audioinput" });

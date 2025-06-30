@@ -1,4 +1,4 @@
-import { usePartyState } from "@/app/hooks/usePartyState";
+import { usePartyState } from "../../app/hooks/usePartyState";
 import { Button } from "../ui/button";
 import { BiSolidCaptions, BiCaptions } from "react-icons/bi";
 

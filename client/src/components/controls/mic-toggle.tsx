@@ -1,5 +1,5 @@
 import { useRoomContext } from "@livekit/components-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "../ui/button";
 import { Mic, MicOff } from "lucide-react";
 
 export default function MicToggle() {

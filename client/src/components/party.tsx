@@ -7,11 +7,11 @@ import {
 } from "@livekit/components-react";
 import { Participant } from "livekit-client";
 import { Headphones } from "lucide-react";
-import ListenerControls from "@/components/listener-controls";
+import ListenerControls from "./listener-controls";
 import { useEffect, useState } from "react";
-import { Button } from "@/components/ui/button";
-import Captions from "@/components/captions";
-import { usePartyState } from "@/app/hooks/usePartyState";
+import { Button } from "./ui/button";
+import Captions from "./captions";
+import { usePartyState } from "../app/hooks/usePartyState";
 import HostControls from "./host-control";
 import CircleVisualizer from "./circle-visualiser";
 

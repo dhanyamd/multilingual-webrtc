@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { TokenResult } from "@/app/api/token/route";
-import { Input } from "@/components/ui/input";
-import { Checkbox } from "@/components/ui/checkbox";
-import { Label } from "@/components/ui/label";
-import { Button } from "@/components/ui/button";
+import { TokenResult } from "../app/api/token/route";
+import { Input } from "./ui/input";
+import { Checkbox } from "./ui/checkbox";
+import { Label } from "./ui/label";
+import { Button } from "./ui/button";
 import {
   Card,
   CardContent,
@@ -11,9 +11,9 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "./ui/card";
 import { CheckedState } from "@radix-ui/react-checkbox";
-import { usePartyState } from "@/app/hooks/usePartyState";
+import { usePartyState } from "../app/hooks/usePartyState";
 
 interface LobbyProps {
   partyId: string;

@@ -1,4 +1,4 @@
-import { usePartyState } from "@/app/hooks/usePartyState";
+import { usePartyState } from "../app/hooks/usePartyState";
 import { useRoomContext } from "@livekit/components-react";
 import { Participant, RoomEvent, TrackPublication, TranscriptionSegment } from "livekit-client";
 import { useEffect, useState } from "react";

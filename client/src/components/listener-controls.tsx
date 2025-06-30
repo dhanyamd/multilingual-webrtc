@@ -1,6 +1,6 @@
-import CaptionsToggle from "@/components/controls/captions-toggle";
-import LanguageSelect from "@/components/controls/language-select";
-import LeaveButton from "@/components/controls/leave-button";
+import CaptionsToggle from "./controls/captions-toggle";
+import LanguageSelect from "./controls/language-select";
+import LeaveButton from "./controls/leave-button";
 
 export default function ListenerControls() {
   return (
